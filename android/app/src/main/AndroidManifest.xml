@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Needed if the optional HTTPS tip service is configured at build time. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="signup_app"
         android:name="${applicationName}"
